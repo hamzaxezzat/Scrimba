@@ -1,0 +1,134 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 70%;
+    margin: auto;
+}
+.primary-color {
+    color: rgb(0, 121, 224);
+}
+.btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    background-color: rgb(0, 121, 224);
+    display: inline-block;
+}
+.center {
+    text-align: center;
+}
+h2 {
+    font-weight: 600;
+}
+h6 {
+    color: rgb(251, 200, 48);
+}
+p {
+    font-size: 9px;
+    color: gray;
+}
+/* Start Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: rgb(250, 251, 255);
+}
+
+nav img {
+    max-width: 200px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+li {
+    /* line-height: 50px; */
+    list-style: none;
+    /* margin: 15px 5px; */
+    color: gray;
+    display: inline;
+    margin: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+li:hover {
+    color: black;
+}
+
+/* End Nav */
+
+/* Start Hero */
+.hero-sec {
+    display: flex;
+
+    background-color: rgb(250, 251, 255);
+}
+.description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 50%;
+}
+.img img {
+    width: 70%;
+}
+/* End of Hero */
+
+/* Start companies-sec */
+.companies-sec {
+}
+.companies-sec h4 {
+    text-align: center;
+}
+.companies-logos {
+    display: flex;
+    justify-content: space-between;
+}
+/* End of Companies-sec */
+/* Start Services Sec */
+.services-sec {
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+.each-service {
+    background-color: aliceblue;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.each-service:hover {
+    border: 1px solid rgb(235, 235, 238);
+}
+.each-service img {
+    width: 250px;
+}
+.each-service h4 {
+}
+.each-service p {
+}
+/* End Of Services Sec*/
+
+/* Start About Us Sec */
+.aboutus-sec {
+    display: flex;
+}
+.aboutus-sec img {
+    width: 100%;
+}
+/* End About Us Sec */
