@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "timer";
+    src: url(timer.ttf);
+}
+body {
+    margin: 0;
+    background-color: #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+.score-container-el {
+    background-color: black;
+    color: #f94f6d;
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    padding-top: 30px;
+}
+h1 {
+    font-family: "timer", "Times New Roman";
+    font-size: 70px;
+    margin: 0;
+}
+.score-increase-el {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    /* font-family: "timer", "Times New Roman"; */
+}
+.increase-btn {
+    padding: 8px;
+    border: 1px solid #9aabd8;
+    color: #9aabd8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1b244a;
+    font-family: "timer", "Times New Roman";
+    font-size: 15px;
+}
+
+h3 {
+    text-align: center;
+}

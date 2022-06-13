@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div >
+                <h3>HOME</h3>
+                <div class="score-container-el">
+                    <h1 id="score-home">0</h2>
+                </div>
+                <div class="score-increase-el">
+                    <button class="increase-btn" id="increase-home-1" onclick="increaseHomeOne()">+1</button>
+                    <button class="increase-btn" id="increase-home-2" onclick="increaseHomeTwo()">+2</button>
+                    <button class="increase-btn" id="increase-home-3>" onclick="increaseHomeThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="score-container-el">
+                    <h1 id="score-guest">0</h1>
+                </div>
+                <div class="score-increase-el">
+                    <button class="increase-btn" id="increase-guest-1" onclick="increaseGuestOne()">+1</button>
+                    <button class="increase-btn" id="increase-guest-2" onclick="increaseGuestTwo()">+2</button>
+                    <button class="increase-btn" id="increase-guest-3>" onclick="increaseGuestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h3>The Winnes is:</h3>
+        <h3 id="winner">-</h3>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
