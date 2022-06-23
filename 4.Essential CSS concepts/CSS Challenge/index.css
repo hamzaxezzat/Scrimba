@@ -1,3 +1,7 @@
+:root {
+    --primary: #ffbf00;
+    --secondary: #fe3f9f; 
+  }
 
 /* 
 Wild Strawberry: #fe3f9f
@@ -15,7 +19,7 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .container{
-    width: 550px;
+    width: 500px;
     margin: 0 auto;
     padding: 80px 0;
 }
@@ -28,7 +32,7 @@ body{
     font-weight: 200;
 }
 #intro-h1-name{
-    color:#ffd34c;
+    color: var(--primary);
     font-size: xx-large;
     /* font-size: 200px; */
 }
@@ -40,9 +44,43 @@ body{
     border-radius: 50%;
 }
 h2{
-
+    padding: 25px 0;
+    border-top: thin solid gainsboro ;
+    border-bottom: thin solid gainsboro ;
+    font-weight: 200;
+    width: 60%;
+    margin: 0 auto;
+    
 }
 h2 span{
+    font-weight: 700;
     display: block;
-    color: ;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+.pragraph{
+    padding: 20px 0;
+    width: 80%;
+    margin:0 auto 20px
+}
+.btn{
+    background-color:var(--secondary) ;
+    color:white;
+    padding: 10px 15px;
+}
+a{
+    
+    text-decoration: none;
+}
+.article-date{
+    font-size: smaller;
+}
+h3{
+    margin-top: 20px;
+}
+article a{
+    color: var(--primary);
+}
+.dark  a {
+    /* color: white; */
 }
