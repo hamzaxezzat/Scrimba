@@ -24,6 +24,21 @@ body{
     padding: 80px 0;
 }
 
+h2{
+    padding: 25px 0;
+    border-top: thin solid gainsboro ;
+    border-bottom: thin solid gainsboro ;
+    font-weight: 200;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+h2 span{
+    font-weight: 700;
+    display: block;
+    color: var(--primary);
+    text-transform: uppercase;
+}
 .dark{
     background-color: black;
     color:aliceblue
@@ -43,21 +58,7 @@ body{
     border: 5px solid white;
     border-radius: 50%;
 }
-h2{
-    padding: 25px 0;
-    border-top: thin solid gainsboro ;
-    border-bottom: thin solid gainsboro ;
-    font-weight: 200;
-    width: 60%;
-    margin: 0 auto;
-    
-}
-h2 span{
-    font-weight: 700;
-    display: block;
-    color: var(--primary);
-    text-transform: uppercase;
-}
+
 .pragraph{
     padding: 20px 0;
     width: 80%;
